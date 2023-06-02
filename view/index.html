@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Backend</title>
+    <style>
+        .cantainer {
+            width: 60%;
+            margin: auto;
+        }
+
+        .cantainer input {
+            border: 1px solid lightblue;
+        }
+
+        .cantainer button {
+            border: 1px solid crimson;
+            padding: 10px 15px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Practice Backend </h1>
+    <div class="cantainer">
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="image"> <br>
+            <button>submit File</button>
+        </form>
+    </div>
+</body>
+
+</html>
